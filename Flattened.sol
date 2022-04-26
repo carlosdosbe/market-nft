@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 // Sources flattened with hardhat v2.9.3 https://hardhat.org
 
 // File @openzeppelin/contracts/utils/introspection/IERC165.sol@v4.5.0
@@ -1925,9 +1924,9 @@ contract MarketOS is ERC721, ERC721Enumerable, DNA {
 
         string memory jsonURI = Base64.encode(
             abi.encodePacked(
-                '{ "name": "PlatziPunks #',
+                '{ "name": "MarketOS #',
                 tokenId.toString(),
-                '", "description": "Platzi Punks are randomized Avataaars stored on chain to teach DApp development on Platzi", "image": "',
+                '", "description": "MarketOS are randomized Avataaars stored on chain to teach DApp development", "image": "',
                 image,
                 '"}'
             )

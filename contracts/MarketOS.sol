@@ -101,7 +101,7 @@ contract MarketOS is ERC721, ERC721Enumerable, DNA {
             abi.encodePacked(
                 '{ "name": "MarketOS #',
                 tokenId.toString(),
-                '", "description": "Platzi Punks are randomized Avataaars stored on chain to teach DApp development on Platzi", "image": "',
+                '", "description": "MarketOS are randomized Avataaars stored on chain to teach DApp development", "image": "',
                 image,
                 '"}'
             )
